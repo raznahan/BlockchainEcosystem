@@ -28,6 +28,10 @@ _UpgradeReport_Files/
 **/.vs/
 TestResults/
 ###################
+#Database connection strings
+###################
+**/connections.config
+
 # Web publish log #
 ###################
 *.Publish.xml

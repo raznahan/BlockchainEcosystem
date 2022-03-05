@@ -1,6 +1,6 @@
 # Blockchain Ecosystem Connection Graph
 
-This is a web-based connection graph for blockchain ecosystem in my home country.
+This is a web-based connection graph for blockchain ecosystem in my home country, developed using ASP.NET MVC.
 
 ## Preview
 
