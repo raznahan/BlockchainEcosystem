@@ -1,0 +1,118 @@
+﻿#legend, #sidebar {
+    top: 0;
+    height: auto;
+    margin: 20px;
+    transition: all .3s;
+    border-radius: 5px;
+    box-shadow: 0 0 8px 1px rgba(135,129,115,.37);
+    display: block;
+    position: fixed
+}
+
+#cy, #legend, #logo-graph, #sidebar {
+    display: block
+}
+
+#legend, #pageloader, #searchBar, #sidebar {
+    position: fixed
+}
+
+#cy {
+    width: 100%;
+    height: 100vh;
+    background-color: #1e3358
+}
+
+#logo-graph {
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    max-width: 300px
+}
+
+#contributeToggle {
+    margin: 0 auto;
+    display: block;
+    width: 100%
+}
+
+#sideCollapse {
+    display: none
+}
+
+#sidebar {
+    right: 0;
+    max-height: calc(100vh - 40px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #e2e7eb
+}
+
+    #sidebar .easy-autocomplete {
+        width: 100% !important
+    }
+
+    #sidebar .form-control {
+        background-color: #fff
+    }
+
+#legend {
+    left: 0;
+    width: 180px;
+    padding: 10px;
+    background-color: #e2e7eb;
+    text-align: center
+}
+
+    #legend .circle {
+        width: 35px;
+        height: 35px;
+        display: inline-block;
+        border-radius: 20px;
+        margin: 0 5px;
+        border: 3px solid;
+        background-color: #fff;
+        cursor: help
+    }
+
+        #legend .circle.growth {
+            border-color: #84bb00
+        }
+
+        #legend .circle.investment {
+            border-color: #fcb917
+        }
+
+        #legend .circle.startup {
+            border-color: #2bb4df
+        }
+
+    #legend hr {
+        border-color: #333;
+        margin: 5px 0
+    }
+
+    #legend > p {
+        color: #333;
+        font-size: 12px
+    }
+
+#pageloader {
+    color: #fff;
+    top: calc(50vh - 22.5px);
+    right: calc(50vw - 21px)
+}
+
+#searchBar {
+    right: calc(50vw - 100px);
+    width: 200px;
+    height: auto;
+    top: 20px
+}
+
+    #searchBar .form-control {
+        margin-bottom: 0;
+        text-align: center;
+        background-color: #fff !important
+    }
+/*# sourceMappingURL=graph.3ed3029f6d15bbc46978cde70101f7c4.css.map*/
