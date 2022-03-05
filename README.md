@@ -22,7 +22,7 @@ managed by the input you give to the library. **Link.cs** class is the model tha
 You can also search within the graph via the search box provided at the upper center of the page.
 
 
->** The data in the live version is an old dataset that I had previously collected. Most of them are not really valid anymore.
+>** The data in the live version is an old dataset that I had previously collected and analyzed. Most of them are not really valid anymore.
 
 
 [vis library]:https://visjs.org/
