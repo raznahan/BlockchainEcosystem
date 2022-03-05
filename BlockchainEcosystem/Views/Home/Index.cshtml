@@ -22,28 +22,7 @@
 
         }
 
-        /*.no-js #loader {
-            display: none;
-        }
-
-        .js #loader {
-            display: block;
-            position: absolute;
-            left: 100px;
-            top: 0;
-        }*/
-
-        /*.se-pre-con {
-            position: fixed;
-            left: 0px;
-            top: 0px;
-            width: 100%;
-            height: 100%;
-            z-index: 9999;
-            background: url(Content/Preloader_2.gif) center no-repeat #fff;
-        }*/
-
-    </style>
+        </style>
 
     <script src="~/Scripts/jquery-3.3.1.min.js"></script>
 
@@ -52,22 +31,11 @@
     <link href="~/Content/st.css" rel="stylesheet" />
     <link href="~/Content/NetwrokStyle.css" rel="stylesheet" />
 
-    @*<script>
-        $(window).load(function () {
-                // Animate loader off screen
-                $(".se-pre-con").fadeOut("slow");
-            });
-
-        </script>*@
-
-
 </head>
 
 <body>
 
-    @*<div class="se-pre-con"></div>*@
-
-    <div id="graph"></div>
+<div id="graph"></div>
 
     <div class="col-xs-12 col-md-2" id="searchBar">
         <form>
@@ -147,12 +115,6 @@ var options = {
 
             window.open(filtered[0].link, '_blank');
 
-            //if (data.nodes.indexof(properties.nodes[0]) !== -1) {
-            //    var index = data.nodes.indexof[properties.nodes[0]];
-            //    options = data.nodes[index];
-                
-            //}
-
         });
 
         network.once("stabilizationIterationsDone", function () {
@@ -166,8 +128,6 @@ var options = {
 
     </script>
     <script src="~/Content/Script/NetworkFunctions.js"></script>
-
-
 
 </body>
 
